@@ -17,6 +17,10 @@ body{
 	*/
 }
 
+img {
+	max-width: 100%;
+}
+
 /* Resets */
 
 /* agrupación de selectores */
@@ -54,7 +58,7 @@ figure{
 */
 
 .main-header{
-	width: 1200px;
+	max-width: 1200px;
 	margin: auto;
 	padding: 20px 0;
 }
@@ -92,7 +96,7 @@ figure{
 }
 
 .container{
-	width: 1200px;
+	max-width: 1200px;
 	margin: auto;
 }
 
@@ -115,7 +119,7 @@ figure{
 }
 
 .register input{
-	width: 1000px;
+	width: 83%;
 	height: 60px;
 	font-size: 16px;
 	padding: 0 15px;
@@ -125,7 +129,7 @@ figure{
 .register button{
 	border: none;
 	background-color: #06B4F2;
-	width: 195px;
+	width: 16%;
 	height: 60px;
 	color: #fff;
 	font-family: inherit;
@@ -133,10 +137,10 @@ figure{
 }
 
 .producto{
-	width: 300px;
+	width: 25%;
 	text-align: center;
 	float: left;
-	margin-top: 100px;
+	margin-top: 8%;
 	padding: 0 15px;
 }
 
@@ -158,7 +162,7 @@ figure{
 }
 
 .left-services{
-	width: 400px;
+	width: 33.3%;
 	float: left;
 }
 
@@ -186,13 +190,14 @@ figure{
 }
 
 .cellphone{
-	width: 400px;
+	width: 33.3%;
 	text-align: center;
 	float: left;
+	padding: 0 15px;
 }
 
 .right-services{
-	width: 400px;
+	width: 33.3%;
 	float: left;
 }
 
@@ -222,11 +227,11 @@ figure{
 		-10px -10px 10px green,
 		-15px -15px 10px orange*/
 		;
-	width: 270px;
+	width: 22.5%;
 	padding: 30px;
 	float: left;
 	margin-top: 60px;
-	margin-right: 40px;
+	margin-right: 3.3%;
 	border-radius: 5px;
 	text-align: center;
 }
