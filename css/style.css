@@ -347,3 +347,41 @@ figure{
 	text-decoration: none;
 	font-weight: 100;
 }
+
+
+@media (max-width:800px) {
+	.container, .main-header {
+		width: 95%;
+	}
+
+	.producto {
+		width: 50%;
+		margin-top: 80px;
+	}
+
+	.left-services, .cellphone, .right-services {
+		float: none;
+		width: 100%;
+	}
+
+	.pricing-table {
+		margin-top: 0;
+	}
+
+	.price-table {
+		width: 48%;
+		margin-right: 4%;
+	}
+
+	.price-table:nth-of-type(even){
+		margin-right: 0;
+	}
+
+	.price-table h4 {
+		font-size: 15px;
+	}
+
+	.price-table table {
+		font-size: 12px;
+	}
+}

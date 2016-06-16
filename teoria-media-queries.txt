@@ -1,0 +1,57 @@
+Media Querie
+
+<link href="para-imprimir.css" media="print">
+
+<link href="mobile.css" media="(max-width: 640px)">
+
+CSS
+
+@media querie{
+	body{
+		background-color: red;
+	}
+}
+
+1. Ancho Máximo (Mobile last)
+@media (max-width: 960px){
+	.container{
+		width: 95%;
+	}
+}
+
+2. Ancho Mínimo (Mobile first)
+@media (min-width: 460px){
+	.container{
+		width: 95%;
+	}
+}
+
+3. Ancho Mínimo y Máximo
+@media (min-width: 460px) and (max-width: 960px){
+	.container{
+		width: 95%;
+	}
+}
+
+====
+
+@media (min-width: 460px){
+	.container{
+		width: 95%;
+	}
+}
+
+@media (min-width: 960px){
+	.container{
+		width: 95%;
+	}
+}
+
+
+4. Ancho máximo o mínimo definiendo la orientación
+
+@media (max-width: 768px) and (orientation: landscape){
+	body{
+		background-color: red;
+	}
+}
